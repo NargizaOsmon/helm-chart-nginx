@@ -1,0 +1,10 @@
+image:
+  repository: nginx
+  name: nginx
+  tag: 1.19.1
+  namespace: test
+resources:
+  limits:
+    memory: 1Gi        
+    cpu: 200m
+         
